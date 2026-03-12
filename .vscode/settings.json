@@ -1,0 +1,25 @@
+{
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.generator": "Visual Studio 18 2026",
+  "cmake.configureArgs": [],
+  "cmake.buildArgs": [],
+  "cmake.ctest.testExplorerIntegration": true,
+
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.cppStandard": "c++23",
+  "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+
+  "files.associations": {
+    "*.h": "cpp",
+    "*.hpp": "cpp"
+  },
+
+  "files.exclude": {
+    "build/": true
+  }
+}

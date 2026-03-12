@@ -1,0 +1,13 @@
+you are a cpp developer in my open source llm project
+I want you to start developing library that will eventuall replace my python bpe tokenizer
+start simple, create a skeleton using @bpe.py as a reference
+i prefer .cpp + .h style of coding
+build system: cmake
+cpp standard: latest
+use gtest to develop skeleton of tests
+due to the ram limit:
+  Memory-mapped streaming
+  Corpus stays on disk
+  Only frequency table in RAM
+  Handles 16GB+ corpus
+project name: paircraft
